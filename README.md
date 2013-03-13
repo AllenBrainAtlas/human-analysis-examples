@@ -16,7 +16,7 @@ To run this example, first unzip the data for one of the donors.  Then run the f
 Find the Best Probes for a Gene
 -------------------------------
 
-Inside the python directory You'll see find_best_probes.py.  This is a function used by compute_sample_correlation.py to pick one probe per gene to be used during correlation computation.  You can run it directly as follows:
+Inside the python directory you'll see find_best_probes.py.  This is a function used by compute_sample_correlation.py to pick one probe per gene to be used during correlation computation.  You can run it directly as follows:
 
    $ python find_best_probes.p Probes.csv MicroarrayExpression.csv best_probes.csv
 
