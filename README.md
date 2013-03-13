@@ -10,8 +10,8 @@ This is a python example that computes the gene expression correlation between a
 
 To run this example, first unzip the data for one of the donors.  Then run the following:
 
-   $ python compute_sample_correlation.py -p Probes.csv MicroarrayExpression.csv correlation.npz
-   $ python make_heatmap.py -o Ontology.csv -s SampleAnnot.csv correlation.npz heatmap.png
+    $ python compute_sample_correlation.py -p Probes.csv MicroarrayExpression.csv correlation.npz
+    $ python make_heatmap.py -o Ontology.csv -s SampleAnnot.csv correlation.npz heatmap.png
 
 Find the Best Probes for a Gene
 -------------------------------
